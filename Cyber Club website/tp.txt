@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Club Core Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .team-member {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+            width: 180px;
+            padding: 15px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            .team-member {
+                width: 150px;
+            }
+        }
+        .team-title {
+            font-weight: bold;
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cyber Club Core Team</h1>
+
+    <div class="team-container">
+        <!-- Technical Team Head -->
+        <div class="team-member">
+            <img src="technical_team_head.jpg" alt="Technical Team Head">
+            <h3>Technical Team Head</h3>
+            <p>Name: John Doe</p>
+        </div>
+
+        <!-- Non-Technical Team Head -->
+        <div class="team-member">
+            <img src="non_technical_team_head.jpg" alt="Non-Technical Team Head">
+            <h3>Non-Technical Team Head</h3>
+            <p>Name: Jane Smith</p>
+        </div>
+
+        <div class="team-title">Non-Technical Team</div>
+        <!-- Cyber Expert -->
+        <div class="team-member">
+            <img src="cyber_expert.jpg" alt="Cyber Expert">
+            <h3>Cyber Expert</h3>
+            <p>Name: Alice Johnson</p>
+        </div>
+
+        <!-- Programming Language Expert -->
+        <div class="team-member">
+            <img src="programming_language_expert.jpg" alt="Programming Language Expert">
+            <h3>Programming Language Expert</h3>
+            <p>Name: Bob Brown</p>
+        </div>
+
+        <!-- Web Development Expert -->
+        <div class="team-member">
+            <img src="web_dev_expert.jpg" alt="Web Development Expert">
+            <h3>Web Dev Expert</h3>
+            <p>Name: Charlie Davis</p>
+        </div>
+
+        <div class="team-title">Technical Team</div>
+        <!-- Content Curator -->
+        <div class="team-member">
+            <img src="content_curator.jpg" alt="Content Curator">
+            <h3>Content Curator</h3>
+            <p>Name: David Wilson</p>
+        </div>
+
+        <!-- Chat Champion -->
+        <div class="team-member">
+            <img src="chat_champion.jpg" alt="Chat Champion">
+            <h3>Chat Champion</h3>
+            <p>Name: Emma Thomas</p>
+        </div>
+
+        <!-- Graphic Head -->
+        <div class="team-member">
+            <img src="graphic_head.jpg" alt="Graphic Head">
+            <h3>Graphic Head</h3>
+            <p>Name: Fiona Garcia</p>
+        </div>
+
+        <!-- Membership Leader -->
+        <div class="team-member">
+            <img src="membership_leader.jpg" alt="Membership Leader">
+            <h3>Membership Leader</h3>
+            <p>Name: George Martinez</p>
+        </div>
+
+        <!-- Event Manager -->
+        <div class="team-member">
+            <img src="event_manager.jpg" alt="Event Manager">
+            <h3>Event Manager</h3>
+            <p>Name: Hannah Lee</p>
+        </div>
+    </div>
+
+</body>
+</html>
